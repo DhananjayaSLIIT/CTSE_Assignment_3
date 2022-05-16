@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 6000
 
 app.use(cors());
 app.use(express.json());
-db_connection();
+//db_connection();
 
 const server = app.listen(PORT, ()=>{
     console.log(`Server is running on PORT ${PORT}...`);
